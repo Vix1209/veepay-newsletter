@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/static/css/fontawesome.min.css">
+    <link rel="shortcut icon" href="/static/images/20220607_140201.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="/static/css/styles.css">
+    <link rel="stylesheet" href="/static/css/thankyou.css">
+    <script src="/static/JS/fontawesome.min.js"></script>
+    <title>{% block title %}Subscription Successful{% endblock %}</title>
+</head>
+
+{% block content %}
+
+
+
+<header>
+    <img src="/static/images/veepay logo new.png" alt="">
+    <a href="{% url 'home' %}"><button>Go back</button></a>
+</header>
+
+<main>
+    <div id="image-div">
+        <img src="/static/images/check icon.png" alt="">
+    </div>
+
+    <div>
+        <h1>Thanks for Signing Up!</h1>
+        <p>You'll receive an email within the next 24 hours</p>
+    </div>
+</main>
+
+{% endblock %}

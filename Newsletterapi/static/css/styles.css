@@ -1,0 +1,288 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem 2rem 1rem 2rem;
+    height: 6rem;
+}
+
+header img {
+    width: 27rem;
+    height: 100%;
+    margin-left: -9rem;
+    margin-top: -1rem;
+}
+
+header button {
+    width: 11rem;
+    background-color: rgb(2, 45, 112);
+    color: white;
+    border: none;
+    height: 4.5rem;
+    cursor: pointer;
+    font-size: 1.1rem;
+    border-radius: 8px;
+}
+
+header a{
+    height: 4.5rem;
+}
+
+main {
+    background-color: rgb(2, 45, 112);
+    color: white;
+    display: flex;
+    padding: 3rem 0 5rem 0;
+}
+
+main section {
+    padding: 0 5rem 0 7rem;
+    width: 100%;
+}
+
+main img {
+    width: 100%;
+    height: 90%;
+}
+
+main h2 {
+    font-size: 3rem;
+    color: orange;
+}
+
+main h1 {
+    font-size: 5.5rem;
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+    letter-spacing: 7px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+main p {
+    display: block;
+    font-size: 1.4rem;
+    margin-bottom: 4rem;
+    line-height: 30px;
+}
+
+main p a {
+    color: orange;
+    text-decoration: none;
+}
+
+main p a:hover {
+    color: rgb(239, 171, 46);
+}
+
+main form label {
+    display: block;
+    text-align: end;
+}
+
+main form {
+    width: 100%;
+}
+
+main form label {
+    font-size: 1.1rem;
+}
+
+main form #input-div {
+    display: flex;
+    align-items: center;
+    height: 5rem;
+    background-color: white;
+    margin: 1rem 0;
+    overflow: hidden;
+    border-radius: 8px;
+}
+
+#email {
+    width: 70%;
+    padding: 1rem 2rem;
+    height: 100%;
+    border: none;
+    font-size: 1.1rem;
+    outline: none;
+}
+
+#email:focus {
+    background-color: rgb(222, 231, 246);
+}
+
+main #button {
+    width: 30%;
+    height: 90%;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 1.1rem;
+    margin-right: 0.5rem;
+    border-radius: 8px;
+    background-color: orange;
+    color: white;
+}
+
+main #button a {
+    text-decoration: none;
+    color: white;
+    width: 100%;
+    height: 100%;
+}
+
+#error-message {
+    background-color: rgb(247, 212, 212);
+    color: black;
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    border: 2px solid rgb(135, 3, 3);
+    display: none;
+    position: fixed;
+    align-items: center;
+    right: 1rem;
+    top: 2rem;
+    animation-duration: 1s;
+    animation-name: slideIn;
+}
+
+@keyframes slideIn {
+    from {
+        top: 0;
+    }
+
+    to {
+        top: 2rem;
+    }
+}
+
+#error-message img {
+    width: 2rem;
+    margin: 0;
+}
+
+#error-message p {
+    margin: 0;
+    margin-left: 1rem;
+    font-size: 1rem;
+}
+
+
+#slogan {
+    margin-top: 7rem;
+    font-family: 'Merienda', cursive;
+    font-size: 0.9rem;
+}
+
+footer {
+    background-color: rgb(2, 45, 112);
+    text-align: center;
+    padding-bottom: 3rem;
+}
+
+footer p {
+    margin: 0;
+    color: white;
+    font-size: 1rem;
+}
+
+footer div {
+    margin-top: 1rem;
+}
+
+footer img {
+    margin-right: 2rem;
+    margin-bottom: 5rem;
+}
+
+
+@media (max-width: 1024px) {
+    main section {
+        padding: 0 3rem 0 5rem;
+    }
+}
+
+@media (max-width: 800px) {
+    main h1 {
+        font-size: 4rem;
+    }
+
+    main h2 {
+        font-size: 2rem;
+    }
+
+    main p {
+        font-size: 1.2rem;
+    }
+
+    main section {
+        padding: 0 1rem 0 3rem;
+    }
+
+    main form #input-div {
+        height: 4rem;
+    }
+
+    main form label {
+        text-align: center;
+    }
+}
+
+@media (max-width: 600px) {
+    main img {
+        height: auto;
+        margin-top: 9rem;
+    }
+
+    main section {
+        padding: 0 1rem 0 2rem;
+    }
+
+    #error-message img {
+        width: 1rem;
+        margin: 0;
+    }
+}
+
+@media (max-width: 500px) {
+    header {
+        margin: 2rem 0.5rem 0 0.5rem;
+    }
+
+    header button {
+        width: 6rem;
+    }
+
+    main {
+        text-align: center;
+        display: block;
+    }
+
+    main section {
+        padding: 0 1rem;
+        width: 90%;
+    }
+
+    main img {
+        display: none;
+    }
+
+    #error-message img {
+        display: block;
+    }
+
+    footer p{
+        font-size: 0.8rem;
+    }
+}
+
+@media (max-width:370px) {
+    header img {
+        width: 7rem;
+        height: 5rem;
+        margin: 0;
+    }
+}

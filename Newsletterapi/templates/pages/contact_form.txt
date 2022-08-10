@@ -1,0 +1,89 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Veepay Welcomes You</title>
+
+</head>
+
+<body style="background-color: rgb(236, 236, 242); overflow-x: hidden; margin: 0; font-family: 'Lato', sans-serif;">
+    <center class="wrappeer" style="width:100%;">
+        
+    <header style="background-color: rgb(2, 45, 112); width: 100%; color: white; padding: 3rem 0; margin-bottom: 3rem;">
+        <div style="display: flex; align-items: center; justify-content: center; text-align:center; max-width:100%%;">
+            <h1 style="margin: 0; font-size: calc(1.625rem + 4.5vw); font-weight: 400;" >
+                
+                Welcome! 
+                <img style="width:calc(1.525rem + 3.3vw); height:calc(1.525rem + 3.3vw);" src="https://i.ibb.co/TMvBjh1/icons8-heart-balloon-100.png" alt="icons8-heart-balloon-100" border="0">
+             
+            </h1>
+
+        </div>
+    </header>
+
+    <main>
+        <div style="width: 80%; max-width: 80%; margin: auto;">
+            <div style="justify-content:center; align-items:center;" >
+                <div>
+                    <p style="font-size: 19px;">Thank you for
+                        your interest in our product! We are super pumped to have you here.</p>
+                    <p style="font-size: 19px;">
+                        Veepay is currently
+                        working to give you the avenue to connect with your favorite services
+                        by providing Bulk SMS, SME data, Recharge platforms(Cable Tv and airtime etc).
+                    </p>
+
+                    <div style=" display:inline-block; text-align:center; display:flex; align-items:center">
+                        <div style="text-align:center; width :100%;">
+                            <img id="first" src="https://i.ibb.co/5BQDKdf/Chat-Two-Color.png" alt="Chat-Two-Color"
+                            style=" width:calc(1.625rem + 8.5vw)">
+                        </div>
+                        <div style="width :100%; padding-top:40px;">
+                            <img id="second" src="https://i.ibb.co/GvBMJZ9/sme.png" alt="sme" style="width:calc(1.625rem + 3.3vw)">
+                        </div>
+                        <div style="width :100%;">
+                            <img id="third" style="width:calc(1.625rem + 9.5vw)" src="https://i.ibb.co/6mP9GvH/Online-payment-Outline.png" alt="Online-payment-Outline">
+                        </div>
+                    </div>
+                    
+                    <p  style="font-size: 18px;">Stayed tuned as we bring you the best.</p>
+                    <div class="mb-5 fs-6 fw-normal" style="font-size: 17px; font-style: italic;">
+                        
+
+                        <p  style="margin-bottom: 0;">Cheers</p>
+                        <p style="margin-top: 0; margin-bottom: 3rem;">Veepay (Feed your network, Live better)</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer 
+        style="background-color: rgb(54, 53, 53); color: white; display: flex; flex-direction: column; justify-content: center; padding-bottom: 0.5rem; padding-top: 2rem;">
+        
+        <div  style="width: 80%; max-width: 80%; margin: auto;">
+            <div class="text-center" style="text-align: center;">
+                <p>To help you get started, follow and like our social media pages</p>
+                
+                <div>
+
+                    <div >
+                        <a href="https://www.facebook.com/Veepay-107125411950493/" target="_blank" style="margin-right: 1.5rem;"><img style='width:1.75rem; height:1.75rem' src="https://i.ibb.co/Jsj98Zw/icons8-facebook-1600.png" alt="icons8-facebook-1600" border="0"></a>
+                            
+                        <a href="https://twitter.com/Veepay3?t=v7mOb_nvkTduJZYfYntv8w&s=09" target="_blank" style="margin-right: 1.5rem;"><img style='width:1.75rem; height:1.75rem' src="https://i.ibb.co/7W4FTzj/icons8-twitter-1600.png" alt="icons8-twitter-1600" border="0"></a>
+
+                        <a href="https://www.instagram.com/veepay1/" target="_blank"><img style='width:1.75rem; height:1.75rem' src="https://i.ibb.co/fYJrVWp/icons8-instagram-1600.png" alt="icons8-instagram-1600" border="0"></a>
+                    </div>
+                </div>
+                <p>You are receiving this email because you signed up for our newsletters.</p>
+                <h5 style="font-size: 20px;">Veepay</h5>
+            </div>
+        </div>
+    </footer>
+    
+    </center>
+</body>
+
+</html>

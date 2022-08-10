@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/static/css/fontawesome.min.css">
+    <link rel="shortcut icon" href="/static/images/20220607_140201.jpg" type="image/x-icon">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Merienda&family=Montserrat:wght@400&family=Nanum+Gothic+Coding&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="/static/css/styles.css">
+    <title>{% block title %}  {% endblock %}</title>
+</head>
+<body>
+
+
+    {% block content %}
+    <header>
+        <img src="/static/images/veepay logo new.png" alt="veepay logo">
+        <a href="#form"><button>Sign in</button></a>
+    </header>
+    <main>
+        <section>
+            <div id="error-message">
+                <img src="/static/images/exclamation.png" alt="">
+                <p>No Information</p>
+            </div>
+            <article>
+                <div>
+                    <h2>Coming Soon!</h2>
+                    <h1>Veepay</h1>
+                    <p>Veepay is a three in one telecommunication platform startup that will provide Bulk sms, SME data
+                        and Recharge platforms which aims to increase lifetime value and customer engagement through our
+                        products. <a href="{% url 'about' %}">Read more...</a>
+                    </p>
+                </div>
+            </article>   
+            <article>
+                <form action="" id="form" method="POST">  
+                    {% csrf_token %}
+                    <label for="email">Sign up to find out when it's ready.</label>
+                    <div id="input-div">
+                        <input type="email" id="email" placeholder="Email Address" name='user_email'>
+                        <input id="button" type="submit" value="Sign Up">
+                        
+                    </div>
+                </form>
+            </article>
+            <div id="slogan">
+                <i>Feed Your Network, Live Better</i>
+            </div>
+        </section>
+        <div>
+            <img src="/static/images/payment icon.png" alt="">
+        </div>
+    </main>
+    {% endblock %}
+    <!-- <script src="/static/JS/index.js"></script>
+    <script src="/static/JS/fontawesome.min.js"></script> -->
+
+</body>
+</html>

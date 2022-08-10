@@ -1,0 +1,75 @@
+main{
+    margin-bottom: 0;
+}
+
+main h1{
+    margin: 0;
+    margin-bottom: 3rem;
+}
+
+main h2{
+    margin: 0;
+    color: white;
+    font-size: 2rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+main i{
+    color: orange;
+    font-size: 1.1rem;
+}
+
+main section{
+    width: 70%;
+    padding: 0 3rem 0 4rem;
+}
+
+main ul{
+    margin-top: 3rem;
+    font-size: 1.3rem;
+    line-height: 30px;
+}
+
+main ul li{
+    margin-bottom: 1rem;
+}
+
+main ul li::marker{
+    color: orange;
+}
+
+@media (max-width: 1200px) {
+    main section {
+        width: 100%;
+    }
+
+    main h1{
+        font-size: 4rem;
+    }
+}
+
+@media (max-width: 1024px) {
+    main section {
+        width: 100%;
+        padding: 0 2rem;
+    }
+
+    main img{
+        display: none;
+    }
+}
+
+@media (max-width: 500px) {
+    main section{
+        padding: 0 1rem;
+        width: 90%;
+    }
+
+    main ul{
+        list-style-type: none;
+        width: 100%;
+        margin: 0;
+        margin-top: 2rem;
+        padding: 0;
+    }
+}
